@@ -1,0 +1,29 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color:blue;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    border-radius: 5%;
+  }
+
+  input[type=text] {
+    border: rgb(61, 60, 60);
+    background-color: white;
+    width: 25%;
+    height: 35px;
+  }
+
+
+  h2 {
+      background-color: khaki;
+      width: 30%;
+  }
